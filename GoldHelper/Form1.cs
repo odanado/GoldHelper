@@ -545,7 +545,7 @@ namespace GoldHelper
             init();
             updateIVText();
             updateStatsText();
-            changeBTNColor((Button)sender);
+            if (prevPushedBTN != null) prevPushedBTN.BackColor = SystemColors.Control;
         }
 
         private void BTN_Dump_Click(object sender, EventArgs e)
