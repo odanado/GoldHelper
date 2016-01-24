@@ -398,7 +398,7 @@ namespace GoldHelper
 
         private void BTN_RALPHGoldeenL10_Click(object sender, EventArgs e)
         {
-            goldHelper.kill(Enemy.Name.Geodude, 10, false);
+            goldHelper.kill(Enemy.Name.Goldeen, 10, false);
             updateIVText();
             updateStatsText();
             changeBTNColor((Button)sender);
