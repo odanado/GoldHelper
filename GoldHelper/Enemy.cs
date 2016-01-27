@@ -50,7 +50,7 @@ namespace GoldHelper
                     expPoint = 57;
                     break;
                 case Name.Pidgeotto:
-                    expPoint = 133;
+                    expPoint = 113;
                     break;
                 case Name.Caterpie:
                     expPoint = 53;
